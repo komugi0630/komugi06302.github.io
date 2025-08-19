@@ -1,0 +1,6 @@
+document.getElementById("copyMail").addEventListener("click", () => {
+  const mail = "257zs06630@student.zen.ac.jp";
+  navigator.clipboard.writeText(mail).then(() => {
+    document.getElementById("copyMessage").textContent = "メールアドレスをコピーしました！";
+  });
+});

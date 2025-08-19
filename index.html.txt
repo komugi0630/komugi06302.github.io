@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>komugi0630のポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>komugi0630</h1>
+    <p class="subtitle">Webページ制作・動画編集に挑戦中！</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>Webページの作成やコーディングに興味があります。</p>
+    </section>
+
+    <section>
+      <h2>Profile</h2>
+      <ul>
+        <li>名前: komugi0630</li>
+        <li>所在地: 東京都</li>
+        <li>興味: 動画編集、Webデザイン</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <th>OS</th>
+          <td>Windows, Ubuntu など</td>
+        </tr>
+        <tr>
+          <th>Frameworks</th>
+          <td>Node.js, Express など</td>
+        </tr>
+        <tr>
+          <th>Tools</th>
+          <td>Git, GitHub, PostgreSQL など</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:257zs06630@student.zen.ac.jp">メールを送る</a></li>
+      </ul>
+      <button id="copyMail">メールアドレスをコピー</button>
+      <p id="copyMessage"></p>
+    </section>
+
+    <section>
+      <h2>History</h2>
+      <table>
+        <tr>
+          <th>2025 年</th>
+          <td>学校法人角川ドワンゴ学園 <a href="https://nnn.ed.jp/">S高等学校</a> 卒業</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 komugi0630</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
