@@ -3,4 +3,5 @@ document.getElementById("copyMail").addEventListener("click", () => {
   navigator.clipboard.writeText(mail).then(() => {
     document.getElementById("copyMessage").textContent = "メールアドレスをコピーしました！";
   });
+
 });
